@@ -1,0 +1,160 @@
+    <style>
+	
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: black; 
+        }
+
+       
+        .wrapper {
+            display: flex; 
+            min-height: 100vh;
+        }
+		
+        nav {
+            color: black;
+            background-color: skyblue; 
+            width: 25%; 
+            padding: 30px;
+            box-sizing: border-box; 
+        }
+
+        nav h3 {
+            border-bottom: 2px solid white;
+            padding-bottom: 15px;
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style: none;  
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 12px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        main {
+            width: 75%; 
+            background-color: white;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        main h1 {
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 28px;
+            color: #333;
+        }
+
+       
+        .gambar {
+            background-color:gray; 
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 30px;
+        }
+		
+		.header {
+			color:black;
+			background-color:gray;
+			text-align: center;
+			padding:40px;
+		}
+			
+
+        .gambar img {
+            width: 300px; 
+            height: auto;
+            border: 3px solid white; 
+            border-radius: 8px; 
+            margin-right: 25px; 
+        }
+
+        .banner-text h2 {
+            color: white; 
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .banner-text ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+			padding-left:20px;
+			list-style-type: circle;
+        }
+
+        
+        .description-text p {
+            font-size: 14px;
+            line-height: 1.8;
+            color: black;
+            margin-bottom: 15px;
+        }
+
+        
+        .accreditation-section h3 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; 
+            font-size: 14px;
+        }
+
+        table, th, td {
+            border: 1px solid black; 
+        }
+
+        th {
+            background-color: gray; 
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            color: black;
+        }
+		
+		
+		nav a {
+			color: white;
+			text-decoration:none
+		}
+		nav a:hover {
+				color:black
+		}
+		nav ul {
+			list-style:none;
+			padding-left:0
+		}
+		.footer{
+			margin-top:30px;
+			padding:20px;
+			color:white;
+			background-color:skyblue;
+			text-align: center;
+			clear:both;
+			
+		}
+		}
+
+    </style>
