@@ -1,98 +1,200 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sistem Informasi Akademik TI</title>
-	<link rel="stylesheet" type="text/css" href="seni.css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-		
-		<div class= "header" >
-			<h1>Teknologi Informasi</h1>
-		</div>
-		
-		<section>
-		
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="wrapper">
-        
-        <nav>
-            <h3>Program Studi</h3>
-            <ul>
-                <li><a href="#">D3 Teknik Komputer</a></li>
-                <li><a href="#">D3 Manajemen Informatika</a></li>
-                <li><a href="#">D4 Teknologi Rekayasa Perangkat Lunak</a></li>
-            </ul>
-        </nav>  
+    <title>Jurusan Teknologi Informasi</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Jurusan Teknologi Informasi</h1>
 
-        <main>
-            
 
-            <div class="gambar">
-                <img src="web-header02.png" alt="Logo Teknologi Informasi">
-                
-                <div class="banner-text">
-                    <h2>Selamat Datang</h2>
-                    <ul type="circle">
-                        <li>D3 Teknik Komputer</li>
-                        <li>D3 Teknik Komputer (Kampus Solok)</li>
-                        <li>D3 Sistem Informasi (Kampus Tanah Datar)</li>
-                        <li>D3 Manajemen Informatika</li>
-                        <li>D3 Manajemen Informatika (Kampus Pelalawan)</li>
-                        <li>D4 Teknologi Rekayasa Perangkat Lunak</li>
-                    </ul>
+
+    <!-- navigasi -->
+    <ul class="nav nav-pills mb-4">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="pill" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#prodi">Program Studi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#akreditasi">Akreditasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#kontak">Kontak</a>
+          </li>
+      </ul>
+
+
+      <!--Tab Content-->
+        <div class="tab-content" >
+        <!--HOME-->
+        <!--gambar-->
+            <div class="tab-pane fade show active" id="home">
+             <div id="sliderKampus" class="carousel slide mb-4" data-bs-ride="carousel">
+  
+             <div class="carousel-indicators">
+                <button type="button" data-bs-target="#sliderKampus" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#sliderKampus" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#sliderKampus" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="gambar1.jpg" class="d-block w-100" alt="Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img src="gambar2.jpg" class="d-block w-100" alt="Slide 2">
+             </div>
+             <div class="carousel-item">
+                <img src="gambar3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#sliderKampus" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+           </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#sliderKampus" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+  
+          </div>
+          
+          <!--HOME-->
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Selamat Datang</h3>
+                        <p>Website jurusan Teknologi Informasi.....</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="description-text">
-                <p>
-                    Jurusan Teknologi Informasi menghasilkan tenaga profesional di bidang teknologi informasi, khususnya dalam pengelolaan sistem berbasis komputer yang mampu beradaptasi di berbagai sektor industri modern.
-                </p>
-                <p>
-                    Fasilitas yang tersedia meliputi ruang kelas ber-AC, laboratorium komputer dengan spesifikasi tinggi, serta lingkungan belajar yang nyaman dan kondusif.
-                </p>
+      <!--Profile-->
+                <div class="tab-pane show" id="profile">
+                    <h3>Profile</h3>
+                    <p>Jurusan Teknologi Informasi(Tekinfo) Politeknik Negeri Padang (PNP) adalah pusat pendidikan vokasi unggulan yang fokus menghasilkan tenaga profesional terampil tingkat ahli madya (D3/D4) di bidang perangkat lunak, jaringan komputer, dan pengelolaan sistem informasi</p>
+                </div>
+
+      <!--Prodi-->
+            <div class="tab-pane show" id="prodi">
+                <h3>Program Studi</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">D3 Teknik Komputer</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="https://ti.pnp.ac.id/teknik-komputer/" class="btn btn-primary">Kunjungi Website</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">D4 Teknologi Rekayasa Perangkat Lunak</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="https://ti.pnp.ac.id/teknologi-rekayasa-perangkat-lunak/" class="btn btn-primary">Kunjungi Website</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
 
-            <div class="accreditation-section">
-                <h3>Akreditasi Program Studi</h3>
-                <table>
+        <!--Akreditasi-->
+            <div class="tab-pane show" id="akreditasi">
+                <h3 class="mb-3">Akreditasi Prodi Jurusan Teknologi Informasi</h3>
+                <table class="table">
                     <thead>
-                        <tr>
-                            <th>No</th>
-                            <th>Program Studi</th>
-                            <th>Jenjang</th>
-                            <th>Akreditasi</th>
-                        </tr>
+                      <tr>
+                        <th scope="col">NO</th>
+                        <th scope="col">Program Studi</th>
+                        <th scope="col">Jenjang</th>
+                        <th scope="col">Akreditasi</th>
+                      </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Teknik Komputer</td>
-                            <td>D3</td>
-                            <td>Baik Sekali</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Manajemen Informatika</td>
-                            <td>D3</td>
-                            <td>Unggul</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Teknologi Rekayasa Perangkat Lunak</td>
-                            <td>D4</td>
-                            <td>Baik Sekali</td>
-                        </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Teknik Komputer</td>
+                        <td>D3</td>
+                        <td>Baik Sekali</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Manajemen Informatika</td>
+                        <td>D3</td>
+                        <td>Unggul</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>TRPL</td>
+                        <td>D4</td>
+                        <td>Baik Sekali</td>
+                      </tr>
                     </tbody>
-                </table>
+                  </table>
+                  
             </div>
-			
-			<div class= "footer">
-			<p>Copyright © 2026 Teknologi Informasi PNP</p>
-			</div>
-            
-        </main>
+            <div class="tab-pane show" id="kontak">
+                    <h3>Kontak</h3>
+                    <p>082287338393</p>
+                </div>
+
+
+        </div>
+      
+    
     </div>
 
-</body>
+
+<!--FOOTER-->
+    <footer class="py-5 border-top mt-5">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-6 mb-4">
+        <h5>Jurusan Teknologi Informasi</h5>
+        <p class="text-muted">
+          Website pertama menggunakan bootstrap pada mata kuliah web dasar d3 teknik komputer
+        </p>
+        <small class="text-muted">&copy; 2026 Hak Cipta Dilindungi.</small>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-4">
+        <h5>Berlangganan Info</h5>
+        <p class="text-muted">Masukkan email untuk mendapatkan informasi dan pengumuman terbaru.</p>
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Alamat email kamu..." required>
+            <button class="btn btn-primary" type="submit">Kirim</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+ 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js" ></script>
+
+   
+  </body>
 </html>
